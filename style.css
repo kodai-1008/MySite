@@ -65,7 +65,9 @@ background-size: cover;
   margin-left: 64px;
 }
 
-table,th,td {
+table,
+th,
+td {
   margin: 100px 32px;
   width: 350px;
   height: 50px;
