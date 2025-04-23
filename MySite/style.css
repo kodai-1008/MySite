@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* common */
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2  {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  background: rgba(29, 47, 2, 0.162);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: white;
+}
+
+
+
+header img {
+  vertical-align: bottom;
+  background: skyblue;
+  border-radius: 50%;
+}
+
+/* main */
+
+main {
+background-size: cover;
+  background-image: url(ChatGPT\ Image\ 2025年4月20日\ 22_45_46.png);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+ section h2  {
+  /* background-color: aqua; */
+  color: black;
+  font-weight: normal;
+  font-size: 64px;
+  padding: 32px 16px 128px;
+}
+
+ section a {
+  color: white;
+  
+  background: rgb(26, 164, 26);
+  border-radius: 8px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin-left: 64px;
+}
+
+table,
+th,
+td {
+  margin: 100px 32px;
+  width: 350px;
+  height: 50px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: rgba(29, 47, 2, 0.162);
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding: 32px 0;
+}
+
+small {
+  font-size: 14px;
+  color: #555;
+}
+
+address {
+  margin-top: 16px;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+@media (min-width: 600px) {
+
+main {
+  padding-bottom: 220px;
+}
+
+section h2 {
+  font-size: 80px;
+  padding: 64px 64px 128px;
+}
+
+section a {
+  margin-left: 128px;
+  padding: 32px 48px;
+  font-size: 32px;
+}
+
+}
+
+/* staff */
+
+.staff {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  padding: 32px 16px 0;
+}
+div {
+  margin-top:16px ;
+}
+
+button {
+  margin: 48px;
+  padding: 8px 16px;
+}
